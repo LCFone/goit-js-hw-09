@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+
+.timer {
+  display: flex;
+  font-size: 2em;
+  font-family: monospace;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1em;
+}
+
+.value {
+  background-color: black;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
